@@ -1,0 +1,6 @@
+print("mencari luas segitiga")
+print("----------------------------------")
+alas = float(input("masukkan alas  = "))
+tinggi = float(input("masukkan tinggi"))
+luas = 0.5*alas*tinggi
+print("lias segitiga ini adalah = ",luas)

@@ -1,0 +1,27 @@
+for number in [0, 1, 2, 3, 4]:
+	print (number)
+print("_____________________")
+for number in range (5):
+	print (number)
+print("_____________________")
+surnames = ['baim', 'yeja ayap', 'kepin joldi']
+for position in range(len(surnames)):
+	print(position, surnames [position])
+	print("___________________")
+surnames = ['baim', 'ayap', 'alok']
+for surname in surnames:
+	print(surnames)
+	print("_____________________")
+	people = ['kepi', 'baim', 'yeja', 'alok',]
+	ages = [16, 15, 16, 33]
+	for position in range (len(people)):
+		person = people [position]
+		age = ages [position]
+		print(person, age)	
+print("________________________")
+people = ['baim', 'yeja', 'kepin', 'alok']
+ages = [15, 16, 16, 33]
+nationalities = ['korea', 'india', 'poland', 'brazil']
+for data in zip(people, ages, nationalities):
+	person, age, nationality = data
+	print (person, age, nationality)
